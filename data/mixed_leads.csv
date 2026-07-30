@@ -1,0 +1,4 @@
+company_name,website,industry
+Active Tech,https://stripe.com,Fintech
+Dead Site Test,https://thisdomaindoesnotexist99999.com,Testing
+Invalid Format,not_a_valid_url,Testing

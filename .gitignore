@@ -1,0 +1,93 @@
+# ==================
+# CREDENTIALS (CRITICAL)
+# ==================
+.env
+.env.local
+.env.*.local
+credentials/
+!credentials/.gitkeep
+.env.example
+
+# ==================
+# PYTHON
+# ==================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================
+# IDE & EDITORS
+# ==================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.AppleDouble
+
+# ==================
+# TESTING & COVERAGE
+# ==================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==================
+# LOGGING & TEMP FILES
+# ==================
+logs/
+*.log
+*.pot
+data/logs/
+*.tmp
+*.bak
+*.orig
+
+# ==================
+# DATA & OUTPUT
+# ==================
+data/output/
+*.csv  # Optional: only if you want to exclude CSVs
+!data/sample_leads.csv
+!data/mixed_leads.csv
+
+# ==================
+# CACHE
+# ==================
+.cache/
+*.pickle
+*.pkl
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==================
+# NODEJS (if using)
+# ==================
+node_modules/
+npm-debug.log
