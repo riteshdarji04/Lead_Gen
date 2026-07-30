@@ -1,7 +1,3 @@
-Here is a polished, professional version of your `README.md` designed specifically for a public GitHub repository. It removes internal system paths (like local Python outputs), cleans up file descriptions, and adds standard GitHub elements like badges, tech stack highlights, and contribution guidelines to make it look top-tier to recruiters, collaborators, or clients.
-
----
-
 # AI Lead Discovery & Cold Email Generator 🚀
 
 An end-to-end, AI-powered pipeline designed to automate the B2B lead generation and outreach workflow. The application ingests lead lists, extracts target domain intelligence, scrapes company websites for context, generates highly tailored cold emails using Large Language Models (LLMs), and syncs all outputs directly to Google Sheets.
