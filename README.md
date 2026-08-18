@@ -1,10 +1,10 @@
-# AI Lead Discovery & Cold Email Generator 🚀
+# AI Lead Discovery & Cold Email Generator 
 
 An end-to-end, AI-powered pipeline designed to automate the B2B lead generation and outreach workflow. The application ingests lead lists, extracts target domain intelligence, scrapes company websites for context, generates highly tailored cold emails using Large Language Models (LLMs), and syncs all outputs directly to Google Sheets.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Lead Ingestion & Cleaning:** Reads raw lead datasets (CSV) and normalizes contact/company input fields.
 * **Domain & Company Discovery:** Resolves target web domains and retrieves enriched company metadata.
@@ -15,7 +15,7 @@ An end-to-end, AI-powered pipeline designed to automate the B2B lead generation 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.12+
 * **AI / LLM Orchestration:** OpenRouter API
@@ -25,7 +25,7 @@ An end-to-end, AI-powered pipeline designed to automate the B2B lead generation 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -58,7 +58,7 @@ An end-to-end, AI-powered pipeline designed to automate the B2B lead generation 
 
 ---
 
-## ⚙️ Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 
@@ -112,7 +112,7 @@ Place your Google Service Account JSON key inside the `credentials/` folder and 
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 ### 1. Execute the Main Pipeline
 
