@@ -72,7 +72,7 @@ Clone the repository and set up a virtual environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/riteshdarji04/Lead_Gen.git
 cd your-repo-name
 
 # Create a virtual environment
