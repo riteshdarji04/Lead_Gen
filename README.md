@@ -114,28 +114,12 @@ Place your Google Service Account JSON key inside the `credentials/` folder and 
 
 ## Running the Application
 
-### 1. Execute the Main Pipeline
+### Execute the Main Pipeline
 
 Place your lead data in `data/leads.csv` and run:
 
 ```bash
 python -m src.main
-
-```
-
-### 2. Run Test Suites
-
-Verify individual components and external API integrations using the built-in test modules:
-
-```bash
-# Test OpenRouter LLM connection
-python -m tests.test_openrouter
-
-# Test web scraper functionalities
-python -m tests.test_scraper
-
-# Test Google Sheets API read/write connection
-python -m tests.test_sheets
 
 ```
 
